@@ -1,0 +1,70 @@
+* {
+    border: 0;   
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #EEEEEE;
+    display: flex;
+    flex: 1;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header, form, footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    margin-top: 100px;
+}
+
+footer {
+    margin-bottom: 100px;
+}
+
+h1, h2, p, button {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 300;
+}
+
+h2 {
+    font-weight: 200;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+input {
+    border: 1px solid black;
+    border-radius: 2px;
+    height: 32px;
+    width: 200px;
+    margin: 10px;
+    padding: 4px 10px;
+    font-size: 13px;
+}
+
+button {
+    padding: px 10px;
+    width: 200px;
+    border: 0;
+    height: 32px;
+    border-radius: 2px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+button.secondary-button {
+    background: transparent;
+    text-decoration: underline;
+}
